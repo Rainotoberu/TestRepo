@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Дата и время</title>
+<style> 
+body{
+    background-image: url(./gif.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+</style>
+
+</head>
+<body>
+    <script>
+	var audio = new Audio('click.mp3');
+	document.addEventListener('keydown', function(event) {
+ 	if (event.code == 'KeyW') {
+		audio.play();
+    		window.open('https://www.youtube.com','_self',false)
+  }
+ 	if (event.code == 'KeyM') {
+		audio.play();
+    		window.open('https://music.yandex.ru/','_self',false)
+  }
+ 	if (event.code == 'KeyS') {
+		audio.play();
+    		window.open('https://steamcommunity.com/id/faaarewell/home/','_self',false)
+  }
+ 	if (event.code == 'KeyV') {
+		audio.play();
+    		window.open('https://vk.com/feed','_self',false)
+  }
+});
+    </script> 
+</body>  
+</html>
